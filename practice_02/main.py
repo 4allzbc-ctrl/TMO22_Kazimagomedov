@@ -16,5 +16,5 @@ assert files_per_folder(48, 0)
 assert files_per_folder(56, 8)
 
 words = ["лук", "морковь", "картофель"]
-sorted_words = sorted(words, key=len)
+sorted_words = sorted(words, key=lambda word: len(word))
 print(sorted_words)
